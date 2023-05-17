@@ -1,0 +1,93 @@
+2023-04-28 00:01:04.219 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 00:01:04.223 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x15C1C7C0>, <handle_excel.Case object at 0x15C1C778>, <handle_excel.Case object at 0x15C1C7D8>, <handle_excel.Case object at 0x15C1C7A8>]
+2023-04-28 00:01:04.237 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 00:01:04.241 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x15C26A78>, <handle_excel.Case object at 0x15C26BC8>, <handle_excel.Case object at 0x15C26988>, <handle_excel.Case object at 0x15C26B98>]
+2023-04-28 01:50:42.472 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:50:42.480 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1491A040>, <handle_excel.Case object at 0x05E3FDA8>, <handle_excel.Case object at 0x05E3FCA0>, <handle_excel.Case object at 0x05E3FD48>]
+2023-04-28 01:50:42.497 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:50:42.501 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x149040B8>, <handle_excel.Case object at 0x14904088>, <handle_excel.Case object at 0x1491DAD8>, <handle_excel.Case object at 0x1491D808>]
+2023-04-28 01:51:46.645 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:51:46.651 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x14439040>, <handle_excel.Case object at 0x0595DD90>, <handle_excel.Case object at 0x0595D2F8>, <handle_excel.Case object at 0x0595DC88>]
+2023-04-28 01:51:46.666 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:51:46.669 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x14425058>, <handle_excel.Case object at 0x14425070>, <handle_excel.Case object at 0x1443CAD8>, <handle_excel.Case object at 0x1443C808>]
+2023-04-28 01:52:33.471 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:52:33.485 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1505B070>, <handle_excel.Case object at 0x1505B040>, <handle_excel.Case object at 0x055AE148>, <handle_excel.Case object at 0x055AE0B8>]
+2023-04-28 01:52:33.492 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:52:33.505 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1505EAF0>, <handle_excel.Case object at 0x1505E8B0>, <handle_excel.Case object at 0x1505E9D0>, <handle_excel.Case object at 0x1505E8E0>]
+2023-04-28 01:56:13.307 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:56:13.321 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x14495208>, <handle_excel.Case object at 0x144951C0>, <handle_excel.Case object at 0x14495220>, <handle_excel.Case object at 0x144951F0>]
+2023-04-28 01:56:13.345 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:56:13.350 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x144A6A30>, <handle_excel.Case object at 0x144A6568>, <handle_excel.Case object at 0x144A6970>, <handle_excel.Case object at 0x144A63D0>]
+2023-04-28 01:56:13.360 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:56:13.364 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x144A6718>, <handle_excel.Case object at 0x144A6958>, <handle_excel.Case object at 0x154F1940>, <handle_excel.Case object at 0x154F1910>]
+2023-04-28 01:57:31.342 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:57:31.346 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x159FB100>, <handle_excel.Case object at 0x159FB0B8>, <handle_excel.Case object at 0x159FB118>, <handle_excel.Case object at 0x159FB0E8>]
+2023-04-28 01:57:31.359 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:57:31.362 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x159FEBF8>, <handle_excel.Case object at 0x15A077A8>, <handle_excel.Case object at 0x15A07688>, <handle_excel.Case object at 0x15A073B8>]
+2023-04-28 01:57:31.371 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 01:57:31.374 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x15A799B8>, <handle_excel.Case object at 0x15A79EE0>, <handle_excel.Case object at 0x15A85850>, <handle_excel.Case object at 0x15A85820>]
+2023-04-28 02:02:11.747 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:02:11.748 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x132C0DC0>, <handle_excel.Case object at 0x132C0448>, <handle_excel.Case object at 0x132C04F0>, <handle_excel.Case object at 0x132C0478>]
+2023-04-28 02:02:11.756 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:02:11.758 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13394FE8>, <handle_excel.Case object at 0x13394E68>, <handle_excel.Case object at 0x13394970>, <handle_excel.Case object at 0x133A2EB0>]
+2023-04-28 02:02:11.770 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:02:11.772 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x132C8E20>, <handle_excel.Case object at 0x132C8D90>, <handle_excel.Case object at 0x133B4F10>, <handle_excel.Case object at 0x13394838>]
+2023-04-28 02:03:19.100 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:03:19.102 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1326A808>, <handle_excel.Case object at 0x1326A7D8>, <handle_excel.Case object at 0x139FCB68>, <handle_excel.Case object at 0x139FCB50>]
+2023-04-28 02:03:19.108 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:03:19.110 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13AD2B80>, <handle_excel.Case object at 0x13AD2CE8>, <handle_excel.Case object at 0x13AD2F10>, <handle_excel.Case object at 0x13AD2520>]
+2023-04-28 02:03:19.117 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:03:19.119 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13AF1F88>, <handle_excel.Case object at 0x13AF1FD0>, <handle_excel.Case object at 0x13AF1F58>, <handle_excel.Case object at 0x13AF1658>]
+2023-04-28 02:04:26.331 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:04:26.334 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1310A820>, <handle_excel.Case object at 0x1310A7F0>, <handle_excel.Case object at 0x1389CB80>, <handle_excel.Case object at 0x1389CB68>]
+2023-04-28 02:04:26.352 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:04:26.354 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13972D90>, <handle_excel.Case object at 0x138A7EB0>, <handle_excel.Case object at 0x138A7F58>, <handle_excel.Case object at 0x138A7F10>]
+2023-04-28 02:04:26.364 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:04:26.367 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x138B50A0>, <handle_excel.Case object at 0x138B58E0>, <handle_excel.Case object at 0x138B58B0>, <handle_excel.Case object at 0x139CD028>]
+2023-04-28 02:12:40.810 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:12:40.813 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1403E0A0>, <handle_excel.Case object at 0x1403E088>, <handle_excel.Case object at 0x1403E2C8>, <handle_excel.Case object at 0x1403E070>]
+2023-04-28 02:12:40.823 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:12:40.826 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1402CBF8>, <handle_excel.Case object at 0x1402CF40>, <handle_excel.Case object at 0x1402C730>, <handle_excel.Case object at 0x141BC7C0>]
+2023-04-28 02:13:46.987 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:13:46.990 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13DBB148>, <handle_excel.Case object at 0x050C4658>, <handle_excel.Case object at 0x050C45C8>, <handle_excel.Case object at 0x050C4478>]
+2023-04-28 02:13:46.996 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:13:46.998 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13F35400>, <handle_excel.Case object at 0x13F35190>, <handle_excel.Case object at 0x13F354F0>, <handle_excel.Case object at 0x13F35160>]
+2023-04-28 02:14:33.713 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:14:33.715 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x044D4448>, <handle_excel.Case object at 0x044D4598>, <handle_excel.Case object at 0x131FE088>, <handle_excel.Case object at 0x131FE7C0>]
+2023-04-28 02:14:33.721 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:14:33.723 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1321CAA8>, <handle_excel.Case object at 0x1321CC58>, <handle_excel.Case object at 0x1321CAD8>, <handle_excel.Case object at 0x1321C778>]
+2023-04-28 02:15:46.601 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:15:46.603 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x04A64490>, <handle_excel.Case object at 0x04A645E0>, <handle_excel.Case object at 0x13786DF0>, <handle_excel.Case object at 0x13786E08>]
+2023-04-28 02:15:46.610 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:15:46.612 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x138E53A0>, <handle_excel.Case object at 0x138E5508>, <handle_excel.Case object at 0x138E54A8>, <handle_excel.Case object at 0x138E5028>]
+2023-04-28 02:16:28.411 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:16:28.416 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x064F7910>, <handle_excel.Case object at 0x064F7940>, <handle_excel.Case object at 0x153798E0>, <handle_excel.Case object at 0x153798F8>]
+2023-04-28 02:16:28.432 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:16:28.437 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x154E93D0>, <handle_excel.Case object at 0x154E91F0>, <handle_excel.Case object at 0x154E9400>, <handle_excel.Case object at 0x154E99E8>]
+2023-04-28 02:17:03.510 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:17:03.515 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x16259718>, <handle_excel.Case object at 0x162596D0>, <handle_excel.Case object at 0x16259730>, <handle_excel.Case object at 0x16259700>]
+2023-04-28 02:17:03.532 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:17:03.535 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x162674F0>, <handle_excel.Case object at 0x162678B0>, <handle_excel.Case object at 0x16267F70>, <handle_excel.Case object at 0x162679B8>]
+2023-04-28 02:31:51.700 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:31:51.797 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x14F1DD48>, <handle_excel.Case object at 0x14F1DD00>, <handle_excel.Case object at 0x14F1DD30>, <handle_excel.Case object at 0x14F1DD18>]
+2023-04-28 02:31:51.811 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:31:51.894 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x1508EE50>, <handle_excel.Case object at 0x1508E700>, <handle_excel.Case object at 0x1508E970>, <handle_excel.Case object at 0x1508E9D0>]
+2023-04-28 02:32:08.283 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 CardPay_deposit sheet表单
+2023-04-28 02:32:29.072 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x15098088>, <handle_excel.Case object at 0x165ADE38>, <handle_excel.Case object at 0x165ADC10>, <handle_excel.Case object at 0x165ADB38>, <handle_excel.Case object at 0x165ADB08>, <handle_excel.Case object at 0x161338F8>, <handle_excel.Case object at 0x16133FE8>]
+2023-04-28 02:32:29.966 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 改密发送邮件v2 sheet表单
+2023-04-28 02:32:31.354 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x16975B68>, <handle_excel.Case object at 0x16975C28>, <handle_excel.Case object at 0x16975B38>]
+2023-04-28 02:32:31.380 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 mu2.0register sheet表单
+2023-04-28 02:32:32.763 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x168CF418>, <handle_excel.Case object at 0x168CF460>, <handle_excel.Case object at 0x168CF520>]
+2023-04-28 02:34:18.420 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:34:18.506 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x15832E80>, <handle_excel.Case object at 0x15832E38>, <handle_excel.Case object at 0x15832E68>, <handle_excel.Case object at 0x15832E50>]
+2023-04-28 02:34:18.519 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-28 02:34:18.601 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x15848C28>, <handle_excel.Case object at 0x15848D48>, <handle_excel.Case object at 0x15848C10>, <handle_excel.Case object at 0x15848D78>]
+2023-04-28 02:34:21.862 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 CardPay_deposit sheet表单
+2023-04-28 02:34:22.847 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x15977058>, <handle_excel.Case object at 0x159771C0>, <handle_excel.Case object at 0x15977178>, <handle_excel.Case object at 0x15977088>, <handle_excel.Case object at 0x159771D8>, <handle_excel.Case object at 0x15977460>, <handle_excel.Case object at 0x15977F88>]
+2023-04-28 02:34:22.860 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 改密发送邮件v2 sheet表单
+2023-04-28 02:34:23.856 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x15E05358>, <handle_excel.Case object at 0x15E05388>, <handle_excel.Case object at 0x15E052C8>]
+2023-04-28 02:34:23.866 | INFO     | handle_excel:__init__:39 - 读取excle文件 D:\gitee_code\atfx_api\data\CP接口用例.xlsx 的 mu2.0register sheet表单
+2023-04-28 02:34:24.827 | INFO     | handle_excel:read_excel_data_obj:106 - 返回读取内容：[<handle_excel.Case object at 0x16501F10>, <handle_excel.Case object at 0x16501F40>, <handle_excel.Case object at 0x16501F70>]
+2023-04-28 02:34:46.878 | INFO     | conftest:pytest_collection_modifyitems:50 - 用例testcase/test_cp_send_email_mu.py::TestCpSendEmail::test_send_email[case1]需要加上前置verify_code夹具：发送验证码并识别验证码
+2023-04-28 02:34:46.882 | INFO     | conftest:pytest_collection_modifyitems:50 - 用例testcase/test_register_mu.py::TestCpRegisterMu::test_register_mu[case1]需要加上前置verify_code夹具：发送验证码并识别验证码
+2023-04-28 02:34:46.884 | INFO     | conftest:pytest_collection_modifyitems:50 - 用例testcase/test_register_mu.py::TestCpRegisterMu::test_register_mu[case2]需要加上前置verify_code夹具：发送验证码并识别验证码

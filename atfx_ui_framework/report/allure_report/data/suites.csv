@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun May 07 16:50:15 GMT+08:00 2023","Sun May 07 16:50:34 GMT+08:00 2023","18597","testcases","test_cp_register_gm","TestGmRegister","","","test_register_gm[data1]",""
+"passed","Sun May 07 16:51:39 GMT+08:00 2023","Sun May 07 16:53:01 GMT+08:00 2023","81603","testcases","test_cp_kyc_gm","TestGmKyc","","","test_gm_kyc[data1]",""
+"passed","Sun May 07 16:53:10 GMT+08:00 2023","Sun May 07 16:54:27 GMT+08:00 2023","77025","testcases","test_review","TestReview","","","test_review[data0]",""
+"passed","Sun May 07 16:54:27 GMT+08:00 2023","Sun May 07 16:55:13 GMT+08:00 2023","46360","testcases","test_review","TestReview","","","test_review[data1]",""
+"passed","Sun May 07 16:49:47 GMT+08:00 2023","Sun May 07 16:50:12 GMT+08:00 2023","24467","testcases","test_cp_register_gm","TestGmRegister","","","test_register_gm[data0]",""
+"passed","Sun May 07 16:50:37 GMT+08:00 2023","Sun May 07 16:51:36 GMT+08:00 2023","58428","testcases","test_cp_kyc_gm","TestGmKyc","","","test_gm_kyc[data0]",""

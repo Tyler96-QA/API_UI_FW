@@ -1,0 +1,4 @@
+2023-04-27 23:59:12.520 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-27 23:59:12.525 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1572D8F8>, <handle_excel.Case object at 0x1572D8B0>, <handle_excel.Case object at 0x1572D910>, <handle_excel.Case object at 0x1572D8E0>]
+2023-04-27 23:59:12.546 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 D:\gitee_code\atfx_api\data\BOS接口用例.xlsx 的 重发邮件 sheet表单
+2023-04-27 23:59:12.549 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1573B388>, <handle_excel.Case object at 0x1573BF70>, <handle_excel.Case object at 0x1573B2C8>, <handle_excel.Case object at 0x1573B3E8>]

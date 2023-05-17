@@ -1,0 +1,49 @@
+tylerlogger - 2023-04-03 21:30:24,275 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-03 21:30:24,275 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-03 21:30:45,797 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-03 21:30:45,797 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-03 21:31:52,223 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-03 21:37:16,121 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-03 21:37:16,146 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-03 21:37:16,172 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-03 21:37:16,194 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-03 21:41:33,804 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-03 21:41:33,825 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-03 21:41:33,849 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-03 21:41:33,869 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+

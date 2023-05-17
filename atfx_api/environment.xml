@@ -1,0 +1,19 @@
+<!--environment.xml文件-->
+<environment>
+    <parameter>
+        <key>Tester</key>
+        <value>Tyler</value>
+    </parameter>
+    <parameter>
+        <key>Python-Version</key>
+        <value>3.8.2</value>
+    </parameter>
+    <parameter>
+        <key>plugins</key>
+        <value>allure-pytest-2.9.45, Faker-18.4.0, assume-2.4.2, pytest_check-1.0.4, ordering-0.6, repeat-0.9.1, rerunfailures-10.1, sugar-0.9.7, xdist-3.2.1</value>
+    </parameter>   
+    <parameter>
+        <key>Type</key>
+        <value>xml</value>
+    </parameter>
+</environment>

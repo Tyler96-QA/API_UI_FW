@@ -1,0 +1,10 @@
+2023-04-28 02:01:37.441 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_-ui_framework\data\testcases.xlsx 的 gm_kyc sheet表单
+2023-04-28 02:01:37.443 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1349F178>, <handle_excel.Case object at 0x04D7B460>]
+2023-04-28 02:01:37.454 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_-ui_framework\data\testcases.xlsx 的 gm_register sheet表单
+2023-04-28 02:01:37.456 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x1371CCB8>, <handle_excel.Case object at 0x1371CD00>]
+2023-04-28 02:01:37.471 | INFO     | handle_excel:read_excel_data_obj:85 - 读取excle文件 d:\gitee_code\atfx_-ui_framework\data\testcases.xlsx 的 gm_kyc sheet表单
+2023-04-28 02:01:37.473 | INFO     | handle_excel:read_excel_data_obj:105 - 返回读取内容：[<handle_excel.Case object at 0x13714970>, <handle_excel.Case object at 0x13714A60>]
+2023-04-28 02:01:37.589 | INFO     | driver_settings:__new__:24 - 运行谷歌浏览器并添加初始化设置
+2023-04-28 02:01:37.592 | INFO     | driver_settings:__new__:31 - Working on headless mode...
+2023-04-28 02:01:38.915 | INFO     | test_cp_register_gm:test_register_gm:35 - 当前用例：GM注册CL
+2023-04-28 02:01:38.924 | INFO     | basepage:open:29 - 访问：https://at-client-portal-sit.atfxdev.com/register

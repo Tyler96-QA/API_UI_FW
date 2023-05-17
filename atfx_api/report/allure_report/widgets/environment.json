@@ -1,0 +1,1 @@
+[{"values":["Tyler"],"name":"Tester"},{"values":["3.8.2"],"name":"Python-Version"},{"values":["allure-pytest-2.9.45, Faker-18.4.0, assume-2.4.2, pytest_check-1.0.4, ordering-0.6, repeat-0.9.1, rerunfailures-10.1, sugar-0.9.7, xdist-3.2.1"],"name":"plugins"},{"values":["xml"],"name":"Type"}]

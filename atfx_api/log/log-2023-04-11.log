@@ -1,0 +1,258 @@
+tylerlogger - 2023-04-11 15:32:48,809 - handle_log - [handle_log.py-->line:65] - INFO: test
+20230411 16:26:48 - MainProcess | MainThread | debug.<module>:235 - INFO -this is info message
+2023-04-11 16:27:59 - MainProcess | MainThread | [debug.<module>:235 - INFO -this is info message]
+2023-04-11 16:28:33 - MainProcess | MainThread | [debug.<module>:235 - INFO -this is info message]
+2023-04-11 16:30:04 - MainProcess | MainThread | [debug.<module>:235 - INFO -this is info message]
+2023-04-11 17:23:50.741 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 添加产品 sheet表单
+2023-04-11 17:23:50.779 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 管理员登录接口 sheet表单
+2023-04-11 17:23:50.807 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 上传文件接口 sheet表单
+2023-04-11 17:23:50.837 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 上传文件接口v2 sheet表单
+2023-04-11 17:23:50.987 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-登录
+2023-04-11 17:23:50.990 | INFO     | test_add_product:test_add_product:26 - 判断该请求是否有需要替换的mark
+2023-04-11 17:23:50.991 | INFO     | handle_replace_mark:replace_mark_by_data:35 - 请求数据中没有要替换的mark
+2023-04-11 17:23:50.993 | INFO     | handle_replace_mark:replace_mark_by_data:36 - 返回的请求数据为str：{"principal":"student","credentials":"123456a","imageCode":"lemon"}
+2023-04-11 17:23:50.994 | INFO     | test_add_product:test_add_product:35 - 该请求不需要传递token
+2023-04-11 17:23:50.995 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'principal': 'student', 'credentials': '123456a', 'imageCode': 'lemon'}
+2023-04-11 17:23:51.050 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/adminLogin
+2023-04-11 17:23:51.168 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'access_token': '9a891418-222d-4ef5-8d7d-5b86adebc454', 'token_type': 'bearer', 'refresh_token': 'a8cc8e61-49cb-4c30-a62a-8c408f23007e', 'expires_in': 1295999}
+2023-04-11 17:23:51.170 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:23:51.173 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为token：9a891418-222d-4ef5-8d7d-5b86adebc454
+2023-04-11 17:23:51.176 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为expires_in：1295999
+2023-04-11 17:23:51.181 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-.png图片上传成功
+2023-04-11 17:23:51.184 | INFO     | test_add_product:test_add_product:32 - 该请求需要传递token，从系统变量中获取token：9a891418-222d-4ef5-8d7d-5b86adebc454
+2023-04-11 17:23:51.186 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer9a891418-222d-4ef5-8d7d-5b86adebc454'}
+2023-04-11 17:23:51.187 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.png', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.png'>)}
+2023-04-11 17:23:51.189 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:23:51.258 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'result': '2023/04/d031509a87434dcd918d131df0f48b8d.png'}
+2023-04-11 17:23:51.261 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:23:51.263 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为pic_path：2023/04/d031509a87434dcd918d131df0f48b8d.png
+2023-04-11 17:23:51.267 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-添加产品
+2023-04-11 17:23:51.268 | INFO     | test_add_product:test_add_product:26 - 判断该请求是否有需要替换的mark
+2023-04-11 17:23:51.270 | INFO     | handle_replace_mark:replace_mark_by_data:23 - 请求数据中有要替换的mark
+2023-04-11 17:23:51.272 | INFO     | handle_replace_mark:replace_mark_by_data:25 - 需要替换的mark：['random_str', 'pic_path', 'cur_time']
+2023-04-11 17:23:51.450 | INFO     | handle_replace_mark:replace_mark_by_data:33 - 从python方法返回的值来替换请求数据中的mark：将 #random_str# 替换为oSXIQNSzp
+2023-04-11 17:23:51.453 | INFO     | handle_replace_mark:replace_mark_by_data:29 - 从环境变量获取值来替换请求数据中的mark：将 #pic_path# 替换为2023/04/d031509a87434dcd918d131df0f48b8d.png
+2023-04-11 17:23:51.454 | INFO     | handle_replace_mark:replace_mark_by_data:33 - 从python方法返回的值来替换请求数据中的mark：将 #cur_time# 替换为1681205031454
+2023-04-11 17:23:51.456 | INFO     | handle_replace_mark:replace_mark_by_data:36 - 返回的请求数据为str：{
+ "t": 1681205031454,
+ "prodName": "py57测试vVxfXWvi",
+ "brief": "",
+ "video": "",
+ "prodNameEn": "py57testvVxfXWvi",
+ "prodNameCn": "py57测试vVxfXWvi",
+ "contentEn": "",
+ "contentCn": "<p>testeststetew33333</p>",
+ "briefEn": "",
+ "briefCn": "美白测试",
+ "pic": "2023/04/d031509a87434dcd918d131df0f48b8d.png",
+ "imgs": "2023/04/d031509a87434dcd918d131df0f48b8d.png",
+ "preSellStatus": 0,
+ "preSellTime": null,
+ "categoryId": 144,
+ "skuList": [{
+  "price": 260,
+  "oriPrice": 200,
+  "stocks": 20,
+  "skuScore": 1,
+  "properties": "",
+  "skuName": "",
+  "prodName": "",
+  "weight": 10,
+  "volume": 0,
+  "status": 1,
+  "partyCode": "1681205031454",
+  "prodNameCn": "py57testvVxfXWvi",
+  "prodNameEn": "py57testvVxfXWvi"
+ }],
+ "tagList": [21],
+ "content": "",
+ "deliveryTemplateId": 1,
+ "totalStocks": 20,
+ "price": 260,
+ "oriPrice": 200,
+ "deliveryModeVo": {
+  "hasShopDelivery": true,
+  "hasUserPickUp": true,
+  "hasCityDelivery": false
+ }
+}
+2023-04-11 17:23:51.461 | INFO     | test_add_product:test_add_product:32 - 该请求需要传递token，从系统变量中获取token：9a891418-222d-4ef5-8d7d-5b86adebc454
+2023-04-11 17:23:51.462 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer9a891418-222d-4ef5-8d7d-5b86adebc454'}
+2023-04-11 17:23:51.464 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'t': 1681205031454, 'prodName': 'py57测试vVxfXWvi', 'brief': '', 'video': '', 'prodNameEn': 'py57testvVxfXWvi', 'prodNameCn': 'py57测试vVxfXWvi', 'contentEn': '', 'contentCn': '<p>testeststetew33333</p>', 'briefEn': '', 'briefCn': '美白测试', 'pic': '2023/04/d031509a87434dcd918d131df0f48b8d.png', 'imgs': '2023/04/d031509a87434dcd918d131df0f48b8d.png', 'preSellStatus': 0, 'preSellTime': None, 'categoryId': 144, 'skuList': [{'price': 260, 'oriPrice': 200, 'stocks': 20, 'skuScore': 1, 'properties': '', 'skuName': '', 'prodName': '', 'weight': 10, 'volume': 0, 'status': 1, 'partyCode': '1681205031454', 'prodNameCn': 'py57testvVxfXWvi', 'prodNameEn': 'py57testvVxfXWvi'}], 'tagList': [21], 'content': '', 'deliveryTemplateId': 1, 'totalStocks': 20, 'price': 260, 'oriPrice': 200, 'deliveryModeVo': {'hasShopDelivery': True, 'hasUserPickUp': True, 'hasCityDelivery': False}}
+2023-04-11 17:23:51.465 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/prod/prod
+2023-04-11 17:23:51.498 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'prodId': 17408, 'lang': None, 'shopId': 1, 'prodName': 'py57测试vVxfXWvi', 'oriPrice': 200.0, 'price': 260.0, 'brief': '', 'video': '', 'pic': 'http://mall.lemonban.com:8108/2023/04/d031509a87434dcd918d131df0f48b8d.png', 'imgs': '2023/04/d031509a87434dcd918d131df0f48b8d.png', 'status': 1, 'categoryId': 144, 'soldNum': 0, 'waterSoldNum': None, 'totalStocks': 20, 'deliveryMode': '{"hasUserPickUp":true,"hasShopDelivery":true,"hasCityDelivery":false}', 'deliveryTemplateId': 1, 'createTime': '2023-04-11 17:23:50', 'updateTime': '2023-04-11 17:23:50', 'content': '', 'scorePrice': None, 'preSellStatus': 0, 'preSellTime': None, 'putawayTime': '2023-04-11 17:23:50', 'groupActivityId': 0, 'seckillActivityId': 0, 'prodType': 0, 'isCompose': None, 'version': 0, 'skuList': [{'skuId': 17774, 'prodId': 17408, 'properties': '', 'propertiesEn': None, 'oriPrice': 200.0, 'price': 260.0, 'stocks': 20, 'actualStocks': None, 'updateTime': None, 'recTime': None, 'partyCode': '1681205031454', 'modelId': None, 'pic': None, 'skuName': '', 'skuNameEn': None, 'prodName': '', 'version': None, 'weight': 10.0, 'volume': 0.0, 'status': 1, 'isDelete': None, 'skuScore': 1, 'prodNameCn': 'py57testvVxfXWvi', 'prodNameEn': 'py57testvVxfXWvi', 'skuLangList': None, 'skuSingleProds': None}], 'shopName': None, 'tagList': [21], 'prodLangList': None, 'liveRoomParams': None}
+2023-04-11 17:23:51.501 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:23:51.503 | INFO     | test_add_product:test_add_product:56 - 不需要从响应内容中提取数据作为全局变量
+2023-04-11 17:23:51.507 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:23:51.529 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACQklEQVR42u3av0rDUBTH8Qz1BSyCiCA4ONRVlE5SEERwUdx8ANeCk1YEFydBcBB8BKeuvoCLuOlYRym6dBBBB8FA4BLSNn/anNxzk++P32RLh/TDybmx3i8hAvG4BARYNrPx1+QiDGf16WFkgZU2V+1T35ZFXl/9ZSZWaW0Fo4vpBSwRW/AClgist/MGvICVvy0DC17AErkhEmBVLo3P7UiBZS2DVte0TKSK5yUOa/Zx3RRk1lUVZqvQiRVGFnRw0mFMyqlK+ZI4rLPF66zNnRo4clE12RvKA8vRW+fOzGGmKoEVfk/lYDkRhbBSTqPChtYkOxawgCULi7UmpTwlh8Ei93cPVSVQBSxUVQzWT7vrF1WOqir4UULmiZXIC1g6VWmHFc/Llqrj1r4pqlyxNXbHivCy+IhBPywNqpyBFeFl8SYIrMTUX4+Chm2ZP/qd4DNfNr9jms+p0O5qpRyWknE17mwYkRf2N428eHZ+HYDFwi703MHmrRBVbqnKxMsmLP4t6KKqRF72l3cNqhTuWKKqLg8W0nRttxd05KuqT4VKxpU2WNpmlRFmquEqAWtaWHp+6BdDrda51QJLz3YFLCFqotqAVQlYMdQCYbkj8/QfBlXBur/7GFmOycACXHlhXfT6JYNFkmEVM658Wyl5AQtYIryABSwRXsAqz45lJeN4AStNals3wCrhqRBbwMIWsIDlrC1gEWABC1iisOrvz6Z8hcASmVhhZDhLTHNuPlJgcSssiNpwV/aWTIFFZPHFU/sHP8FklpmSwtUAAAAASUVORK5CYII='}
+2023-04-11 17:23:51.987 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:23:52.008 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACqUlEQVR42u3av0vDQBQH8ICDdChaiji5CYKDm4ODoIggoqurq6N/Q8VJcBAcnGulg4iTu07+Ac6CS1FwFgsOFgJpuCSXS/Lux7v7fnlTekgbP7y8XBKNEURDIpwCBLAQwEIACzGWs6+lonLkG171tgELQcdCAAtBAAsBLASwEASwkLBh3V6+JdXk7+y+f9Qr/LP971hpZCTaEMCCNjEPayNJAZbTF1AkNy93e3FheEf0CqOiNoU1vJlNKr0ifVz4qNIahC81YlgCFxV23vDa6g5gS0vHkogpledH35rY0sdr/XghqYBg5fpQMURu6/Hor1Lx4pVF5g01GazSWap0jQewirKy0U8q96DwUUNq7LRF5EN6sLCyqprY4n71jCqBoFpDGEdgFamiteXD8M4Cli1VRZIkC8x8q8/TNmAxVqU4TgEWP1h2VUkaUmuwnJSwZnKEEazfnVFcAcGyrkq9GxluWjo6ViKskjN+sARV7Z9eXICVhtXt7wulw5k/sCS9KhFmBpkmWIutadVLlpQOXqXNzB9YRcg0OTPQsdLIFKnJVZHDkjjjBKv2aKUDmZVLoZya3JABWCw7FtXATiXMkRkrjcxYZ+IH6+L1Oy5HbgNXO3OMhnfAYrO5wBeWdVuuw7K7ZdUQluG9BsOjOmNY1jdCFWEVuTH/SMf8nWA5LAdT9Z0ZcnzqsOQPoU2eNCsbDYClZR+rtMyfOuu2AItmu8HNl7Es2tIIa2b2UFJj5lF5NdmRr2rF1hTWyXPH5K+Vs3NfHq8XRAOC5WXHAqz8SyFssYYlQQNYgEXQltyasara6l/fA1YNWMOng0kJB8835+Mi32Jw5a6wUtMK2VbDjpXLKy2snjNHVBFsNwRri+RSGPPKFdakk7nwVAewnIicF8cQbJDCFpLNP9x1j3VgcsmtAAAAAElFTkSuQmCC'}
+2023-04-11 17:23:52.192 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:23:52.213 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACxElEQVR42u3aPUvsQBQG4FQWFhb2CjZa2NiIso2WIoiFNvcPXAR7wVpRm8XK0l6wF+wEazt/gOLVQriFWAVBjARCyM6ec5Kc+cjkfTmNcdgsm4czk0mSFEEsJMFPgAAWAlgIYCEIYCGAhQAWggDWb2ZfH9nC1QUsb/jgD7DS7+9LY/Xzyh0/zuQFWPqkwKssLChkSRyqem4LHasVLNYcLidg1YMl72cBfv/dr/e8AKtjoWG9v13T5V5YH5DFD4uNF3nRCwMsBLD0YP1de8W1Bywr7SqzBV7dhjWcPDJWCPNgZmvhZJUo9hN2zh/AKKqOpbi0IrpXS3YOcnA7z5bi6Zbm/mUVFSzbG+4RT47q+HJeBLJk8DEsatyn1BrTXVgdzfPpSlEqY56mt7JqgKwerPIAyTD3sHrOi0VTHiAZlv+Z86qFrNzGErYhSWA5UFXO/tWLkRpsGdFIYLH9rMnivbuw1FfxgOUIVvl4OLAqtti+tbe5Li/FL/kx8Scrv7DKx0OHRQ9D0zLyEgq731jMyyosepgVWBUcwcIimpabsw82DosyHqz8q7EwiTNiptOFdTF1VylmH6sNLC+qiBtGX7BGVY3aaiBM6KwNrDbtapRaXhQs4gg9rIewxqkaZ6vlImzUmRENcYQepjMVBg6LteJlgcUCEtpSSWYLsJp3I8mWaZsTbX+uFNUAlnAd5vLG0D8sIxoJLO8b7pbaVRmZkZqkIblsWkY0Elg2VFGw2BtAdnPLsS3bl62CTCjGIyz2BpDd3IoflmTu+798VpSv7QbA6iosYRzwAixlWKn4OU/c6S6sVPycRwdWWv8Nmd6qChNWWv8NGUuqAAuwAAuwooFF/V6A1QVYKiMVYCG6sByrCiqApQBLsvMOWEgTWPRD6B7+PoClCavuazOAhTDTHFQBlsXFO0gBlqPtBr8Z3tzk5f7UP4VbaAb6/x4wAAAAAElFTkSuQmCC'}
+2023-04-11 17:23:52.472 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:23:52.493 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACSUlEQVR42u3bP0vDQBjH8YAgLvoGXMXNxUkdHEWHLjq4dVBcpM5uroKDIAU3QSc30bG+ARcHJxVEX0KVooMOYiBwhMQmd0nuen++D7+pTf9dPzz3JLTRN2W2Dq5aIXzMiG96JLa855WF9b57noSvn9ZVUBf7M8UZ2rGEsBCc3a99xKF1jWArDMFZwss8Mi95VZyxvO9k5pF5Zovh3d5OBqwQkbEUsrB2bjosh3ydvn2JsBrAAhZbIbCABSwKWE2Syof1ARawGqhWd68c1tPkggiAgFXHFrCYsYAFLHdsOQBrbv1SZLb9EwdYjsGys9KwklsSXukAyzZbTsKiY3G5AVjAYngHFrCAZaCmV0+ABSy7bDl2uQFYlWtzoh/HmC1ghdWxqvGKbanyAlaIW2FlXsAClhZe8raA1QAsp+d3eV69wXU6wDJkyzZhG0e9THSM9sAKCFaelCQvYGmpxeXtJPr2xNup5ySjUmXMFrCKhKkik6yxx74Q1iy1AkCGbQFLAZmqs+7Si0je1rBmVplaqRtg2TtjNYIsSd5WTWoyboDlwPBec7uMYWWolT6kAJlkN5I5bGX+DlhuV6ZpKSHTB6sRW8DypGROBpXm99hWHV7AAta3jtYFLGBpsQUsD2Fl7jocjKej+sy/W5/AAlZ5K6ogLLalygtYIdqqVkq8gAWsunX8eibyDyxr/0kBLPtt5ZFFaU/A8u/csOAwre8kslwVsPRddzAHywZDOlQ9dNqlCZCXXljWNqd8tL60l/hs+aGfzbDY49yqP6/Q4ZCSvWCWAAAAAElFTkSuQmCC'}
+2023-04-11 17:23:53.040 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:23:53.062 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACa0lEQVR42u3bvUoDQRSG4fR6B1qlFiUEvAGxigFBTGeRJq0XoYidgTQBEbG0VKysbC0CImhn4wVYiAREBQcWhmWzf9md2Tk7eT9O4yYY0IdzdmYzjW9CLKTBn4AAiwCLAIsQYBFgEWARAiwDuWwd8L8Hli1b8Mqf5bt1YNG6snM1eFO10LCG066upOuRl2y0rpe/p8yqKa+5hPkMK0KqvC1TrSsPPpn+jAurH6wkVeVtkQIj0hNYsYawxarQDKxOaxpU5n0YAVZeWOGXtDBgAcskLDqWkLwfnkSqxtsNwErJ6KgXW3QsYBkmVTEvYMWnf3GcXvVVVY0tYHklL8WNY1jbZ11VwKrvHMzfzxx0rICXEGTAsjQrHY9C58iA5Scs54MSWP7DomPJTHtynl6OYe2vrOqavQgsnefTnq4y76lYXlhVkrxi+dwazwcrlpocWK3HgSpgOZ+D88EK/yi5YylbwBJya5UNy7mnwqMw6GFmPvrmNbbkw5L1rFCgKpkJoymDb0FhAai+o1DWQ2hUeXzz7vJZIbD8XhXK2scivsKyagtYiwWrsqYlHdbSz4YqYAHLIi85yMzCanaGkfIZ1trvgyqBY0gCMtsdyyo1ER0r4CVTmENkmWjCb6hyFGZaEbcq1MJAtjn+kgwr53feJW431AWZq44VUeUElqxTOgVu3nPyag8/VHm53RB2M0uq+lWhxHOFtleFAS8/hCUZ0pIKw9rb3dFlVliZ33bdv81Tjrcb/OCV3p+MdKwwMlPgqonLfSwPGljKyLM6CuWDM3CY4r45UUUDkxA5yIyd0inPi/gUw8e/Al4II/8fNTomciqpqwAAAABJRU5ErkJggg=='}
+2023-04-11 17:23:53.211 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'credentials': '123456a', 'imageCode': 'inu3', 'principal': 'student', 'sessionUUID': '7efab864-bbb7-4baf-bcbc-9939977526d2'}
+2023-04-11 17:23:53.213 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/adminLogin
+2023-04-11 17:23:53.638 | INFO     | test_upimgv1:test_upimg:27 - 开始执行用例：前置-登录
+2023-04-11 17:23:53.639 | INFO     | test_upimgv1:test_upimg:34 - 需要在headers中添加token：9a891418-222d-4ef5-8d7d-5b86adebc454
+2023-04-11 17:23:53.640 | INFO     | test_upimgv1:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:23:53.641 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer9a891418-222d-4ef5-8d7d-5b86adebc454'}
+2023-04-11 17:23:53.643 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'principal': 'student', 'credentials': '123456a', 'imageCode': 'lemon'}
+2023-04-11 17:23:53.645 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/adminLogin
+2023-04-11 17:23:53.755 | INFO     | test_upimgv1:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:23:53.758 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为token：4eacdb2c-6b10-489c-9946-efb0dbb01f58
+2023-04-11 17:23:53.759 | INFO     | test_upimgv1:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:23:53.760 | INFO     | test_upimgv1:test_upimg:71 - 不需要断言，结束用例
+2023-04-11 17:23:53.764 | INFO     | test_upimgv1:test_upimg:27 - 开始执行用例：.png图片上传成功
+2023-04-11 17:23:53.766 | INFO     | test_upimgv1:test_upimg:34 - 需要在headers中添加token：4eacdb2c-6b10-489c-9946-efb0dbb01f58
+2023-04-11 17:23:53.767 | INFO     | test_upimgv1:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:23:53.769 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer4eacdb2c-6b10-489c-9946-efb0dbb01f58'}
+2023-04-11 17:23:53.770 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.png', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.png'>)}
+2023-04-11 17:23:53.772 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:23:53.826 | INFO     | test_upimgv1:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:23:53.828 | INFO     | test_upimgv1:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:23:53.830 | INFO     | test_upimgv1:test_upimg:65 - 需要断言，断言 {resp.text} 以 {case.excepted}结尾
+2023-04-11 17:23:53.835 | INFO     | test_upimgv1:test_upimg:27 - 开始执行用例：.gif图片上传成功
+2023-04-11 17:23:53.837 | INFO     | test_upimgv1:test_upimg:34 - 需要在headers中添加token：4eacdb2c-6b10-489c-9946-efb0dbb01f58
+2023-04-11 17:23:53.839 | INFO     | test_upimgv1:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:23:53.840 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer4eacdb2c-6b10-489c-9946-efb0dbb01f58'}
+2023-04-11 17:23:53.842 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.gif', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.gif'>)}
+2023-04-11 17:23:53.843 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:23:53.878 | INFO     | test_upimgv1:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:23:53.880 | INFO     | test_upimgv1:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:23:53.882 | INFO     | test_upimgv1:test_upimg:65 - 需要断言，断言 {resp.text} 以 {case.excepted}结尾
+2023-04-11 17:23:53.887 | INFO     | test_upimgv1:test_upimg:27 - 开始执行用例：.jpg图片上传成功
+2023-04-11 17:23:53.888 | INFO     | test_upimgv1:test_upimg:34 - 需要在headers中添加token：4eacdb2c-6b10-489c-9946-efb0dbb01f58
+2023-04-11 17:23:53.890 | INFO     | test_upimgv1:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:23:53.891 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer4eacdb2c-6b10-489c-9946-efb0dbb01f58'}
+2023-04-11 17:23:53.893 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.jpg', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.jpg'>)}
+2023-04-11 17:23:53.894 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:23:53.916 | INFO     | test_upimgv1:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:23:53.917 | INFO     | test_upimgv1:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:23:53.919 | INFO     | test_upimgv1:test_upimg:65 - 需要断言，断言 {resp.text} 以 {case.excepted}结尾
+2023-04-11 17:30:04.711 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 添加产品 sheet表单
+2023-04-11 17:30:04.743 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 管理员登录接口 sheet表单
+2023-04-11 17:30:04.776 | INFO     | handle_excel:__init__:39 - 读取excle文件 d:\code\Api_test\api_framework_v1\data\后端接口用例.xlsx 的 上传文件接口v2 sheet表单
+2023-04-11 17:30:04.922 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-登录
+2023-04-11 17:30:04.924 | INFO     | test_add_product:test_add_product:26 - 判断该请求是否有需要替换的mark
+2023-04-11 17:30:04.926 | INFO     | handle_replace_mark:replace_mark_by_data:35 - 请求数据中没有要替换的mark
+2023-04-11 17:30:04.928 | INFO     | handle_replace_mark:replace_mark_by_data:36 - 返回的请求数据为str：{"principal":"student","credentials":"123456a","imageCode":"lemon"}
+2023-04-11 17:30:04.930 | INFO     | test_add_product:test_add_product:35 - 该请求不需要传递token
+2023-04-11 17:30:04.931 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'principal': 'student', 'credentials': '123456a', 'imageCode': 'lemon'}
+2023-04-11 17:30:04.986 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/adminLogin
+2023-04-11 17:30:05.148 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'access_token': 'f132e93b-81bf-4537-b897-6571042fc80b', 'token_type': 'bearer', 'refresh_token': 'f6ba966c-69c0-4cd1-b8de-7cffd263cacc', 'expires_in': 1295999}
+2023-04-11 17:30:05.150 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:30:05.152 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为token：f132e93b-81bf-4537-b897-6571042fc80b
+2023-04-11 17:30:05.154 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为expires_in：1295999
+2023-04-11 17:30:05.158 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-.png图片上传成功
+2023-04-11 17:30:05.159 | INFO     | test_add_product:test_add_product:32 - 该请求需要传递token，从系统变量中获取token：f132e93b-81bf-4537-b897-6571042fc80b
+2023-04-11 17:30:05.161 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearerf132e93b-81bf-4537-b897-6571042fc80b'}
+2023-04-11 17:30:05.163 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.png', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.png'>)}
+2023-04-11 17:30:05.165 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:30:05.258 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'result': '2023/04/34c7a48bd072421080f41661591854d1.png'}
+2023-04-11 17:30:05.261 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:30:05.262 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为pic_path：2023/04/34c7a48bd072421080f41661591854d1.png
+2023-04-11 17:30:05.267 | INFO     | test_add_product:test_add_product:20 - 开始用例：前置-添加产品
+2023-04-11 17:30:05.269 | INFO     | test_add_product:test_add_product:26 - 判断该请求是否有需要替换的mark
+2023-04-11 17:30:05.270 | INFO     | handle_replace_mark:replace_mark_by_data:23 - 请求数据中有要替换的mark
+2023-04-11 17:30:05.271 | INFO     | handle_replace_mark:replace_mark_by_data:25 - 需要替换的mark：['cur_time', 'pic_path', 'random_str']
+2023-04-11 17:30:05.273 | INFO     | handle_replace_mark:replace_mark_by_data:33 - 从python方法返回的值来替换请求数据中的mark：将 #cur_time# 替换为1681205405273
+2023-04-11 17:30:05.274 | INFO     | handle_replace_mark:replace_mark_by_data:29 - 从环境变量获取值来替换请求数据中的mark：将 #pic_path# 替换为2023/04/34c7a48bd072421080f41661591854d1.png
+2023-04-11 17:30:05.452 | INFO     | handle_replace_mark:replace_mark_by_data:33 - 从python方法返回的值来替换请求数据中的mark：将 #random_str# 替换为iyKUDwLjh
+2023-04-11 17:30:05.453 | INFO     | handle_replace_mark:replace_mark_by_data:36 - 返回的请求数据为str：{
+ "t": 1681205405273,
+ "prodName": "py57测试kCkCGlnT",
+ "brief": "",
+ "video": "",
+ "prodNameEn": "py57testkCkCGlnT",
+ "prodNameCn": "py57测试kCkCGlnT",
+ "contentEn": "",
+ "contentCn": "<p>testeststetew33333</p>",
+ "briefEn": "",
+ "briefCn": "美白测试",
+ "pic": "2023/04/34c7a48bd072421080f41661591854d1.png",
+ "imgs": "2023/04/34c7a48bd072421080f41661591854d1.png",
+ "preSellStatus": 0,
+ "preSellTime": null,
+ "categoryId": 144,
+ "skuList": [{
+  "price": 260,
+  "oriPrice": 200,
+  "stocks": 20,
+  "skuScore": 1,
+  "properties": "",
+  "skuName": "",
+  "prodName": "",
+  "weight": 10,
+  "volume": 0,
+  "status": 1,
+  "partyCode": "1681205405273",
+  "prodNameCn": "py57testkCkCGlnT",
+  "prodNameEn": "py57testkCkCGlnT"
+ }],
+ "tagList": [21],
+ "content": "",
+ "deliveryTemplateId": 1,
+ "totalStocks": 20,
+ "price": 260,
+ "oriPrice": 200,
+ "deliveryModeVo": {
+  "hasShopDelivery": true,
+  "hasUserPickUp": true,
+  "hasCityDelivery": false
+ }
+}
+2023-04-11 17:30:05.459 | INFO     | test_add_product:test_add_product:32 - 该请求需要传递token，从系统变量中获取token：f132e93b-81bf-4537-b897-6571042fc80b
+2023-04-11 17:30:05.461 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearerf132e93b-81bf-4537-b897-6571042fc80b'}
+2023-04-11 17:30:05.462 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'t': 1681205405273, 'prodName': 'py57测试kCkCGlnT', 'brief': '', 'video': '', 'prodNameEn': 'py57testkCkCGlnT', 'prodNameCn': 'py57测试kCkCGlnT', 'contentEn': '', 'contentCn': '<p>testeststetew33333</p>', 'briefEn': '', 'briefCn': '美白测试', 'pic': '2023/04/34c7a48bd072421080f41661591854d1.png', 'imgs': '2023/04/34c7a48bd072421080f41661591854d1.png', 'preSellStatus': 0, 'preSellTime': None, 'categoryId': 144, 'skuList': [{'price': 260, 'oriPrice': 200, 'stocks': 20, 'skuScore': 1, 'properties': '', 'skuName': '', 'prodName': '', 'weight': 10, 'volume': 0, 'status': 1, 'partyCode': '1681205405273', 'prodNameCn': 'py57testkCkCGlnT', 'prodNameEn': 'py57testkCkCGlnT'}], 'tagList': [21], 'content': '', 'deliveryTemplateId': 1, 'totalStocks': 20, 'price': 260, 'oriPrice': 200, 'deliveryModeVo': {'hasShopDelivery': True, 'hasUserPickUp': True, 'hasCityDelivery': False}}
+2023-04-11 17:30:05.464 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/prod/prod
+2023-04-11 17:30:05.508 | INFO     | test_add_product:test_add_product:49 - 响应内容转换为字典后：{'prodId': 17409, 'lang': None, 'shopId': 1, 'prodName': 'py57测试kCkCGlnT', 'oriPrice': 200.0, 'price': 260.0, 'brief': '', 'video': '', 'pic': 'http://mall.lemonban.com:8108/2023/04/34c7a48bd072421080f41661591854d1.png', 'imgs': '2023/04/34c7a48bd072421080f41661591854d1.png', 'status': 1, 'categoryId': 144, 'soldNum': 0, 'waterSoldNum': None, 'totalStocks': 20, 'deliveryMode': '{"hasUserPickUp":true,"hasShopDelivery":true,"hasCityDelivery":false}', 'deliveryTemplateId': 1, 'createTime': '2023-04-11 17:30:04', 'updateTime': '2023-04-11 17:30:04', 'content': '', 'scorePrice': None, 'preSellStatus': 0, 'preSellTime': None, 'putawayTime': '2023-04-11 17:30:04', 'groupActivityId': 0, 'seckillActivityId': 0, 'prodType': 0, 'isCompose': None, 'version': 0, 'skuList': [{'skuId': 17775, 'prodId': 17409, 'properties': '', 'propertiesEn': None, 'oriPrice': 200.0, 'price': 260.0, 'stocks': 20, 'actualStocks': None, 'updateTime': None, 'recTime': None, 'partyCode': '1681205405273', 'modelId': None, 'pic': None, 'skuName': '', 'skuNameEn': None, 'prodName': '', 'version': None, 'weight': 10.0, 'volume': 0.0, 'status': 1, 'isDelete': None, 'skuScore': 1, 'prodNameCn': 'py57testkCkCGlnT', 'prodNameEn': 'py57testkCkCGlnT', 'skuLangList': None, 'skuSingleProds': None}], 'shopName': None, 'tagList': [21], 'prodLangList': None, 'liveRoomParams': None}
+2023-04-11 17:30:05.511 | INFO     | test_add_product:test_add_product:52 - 判断是否需要从响应内容中提取数据作为全局变量
+2023-04-11 17:30:05.512 | INFO     | test_add_product:test_add_product:56 - 不需要从响应内容中提取数据作为全局变量
+2023-04-11 17:30:05.519 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:30:05.548 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACd0lEQVR42u3aIUsEQRQH8OFQMWjyA1zQZhIE2/kFRJtREIMGDXabosFyVQyCxSqYNRhUsCgaDGdTLAYNhhWDCwPLsru3O7M7O++92/+f1+7S3Y83b9+OChDEIPc3l4UV/77CT4bUgQ+wkFoCWAhgIczSGT0ELKQuW5m8AAvBUegxrbu3sPA7ABZ4ARYCWEhmdlvbVgVYyIDAOnk/TRRgAZZjUiS8jGB1V88J/8WZjzXb4iaPiSp2sJzbOth5GWBYTFRlfgpYUmExOQSFDe+99fGofNqy9ddAVYBVEtbT9VhYJrCaqarwKPSZh6ENMljlonmlhUEVhxUDi45VJUvzZwlhtLD4rENpnwTFw4p4aWFoVyYbB8Cy5iWlXXU+X8NqSOsSDytSFQoT0as0Lz/CBCxIc2BddbdISO2rFdoVQ8UTkIqXpI5FZStSFSLT1cy5ysoWJaw4oLghVrAye5UfYeJuxdDDSpBKSMqZsfzbojoE2arKQUMMK0dVpjNCWHxGKz7XZvJfP6c//dv80eUVViE4Dk+CgGWywSpsV5Ewh8iU+SqhIqzvyVldotsVZ1iBi1t+cWRVnFnAcrXHioSVQ8bqQl8iR8dz/YpqVK84V5UWpqzEOD8KSyDjDIu/OW8hhtUP2cXCdFiEqibabV0BIh1WGpnmFUfmv11B2EDBSie0JfQQBCzWsOROV4AFWGLSmxoGLKiqyxZnXoAFXr5g1bR5ByyhvBaXn9NlCquwG7F6V4iQd69MbXFwyqQhcXsJjfCf6y2uzQQs77wjifyO3FYs97BybHFYNyCCoqzGKcBCysNCEMBCHGTv8Su/AAtBx0IAC0Fs8w+2ASSCLH1dMQAAAABJRU5ErkJggg=='}
+2023-04-11 17:30:06.525 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:30:06.552 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACsklEQVR42u3bMUsDMRQH8LpKcSio4CyCg6NOCsWPINLBTooWB7+B4GInZxfdBAVXJ50cKn4AcRUc3dTRggVPDsJxl8ul1yTvJfn/eYOWg1L9kby+3DWGCGIhDfwJ9NNpXSQV3ufaXnlPCrBY8AoPWcpLLax7NyMKsICspjB9ZEVtgBXyRnk1uCyW1V1SCNOCNX0/lxb0+BIpqdq8rPdYQhiQea3Kga1/WN3XkZGK+X/5cLwhLXJVanAejBuiXcnKSJHwqnSTu6B9sCAtjBs8UEUFa5JrysDps/MJ1uJnK1vS1wlVKa4x/ta9w4+k7MGKZcXKkcpJMgKrfz2lrhqqbKfIC7DMqJI6s5Scs6wqqTwSXmP1WIzGDeSwKsG53wTtvctueyepcXmpbTGdY/FRVdl4BQAry0tTWMqrbKxANiDdejoTVXwx+fl79JgrclgkzTtta6XDi3DmrgVLSi2bIjWD2jTFOIZF3rPXm2m5VFUBK/trGSzy5YoJLA4zdzUpx7xKYRF68g4Wh9Go4nsf/SE0K1W+wOIzdle35wSH0GWw+H8lJIcl1cP5SIfmEJqVKl9g8enxNcW4sQVYLmC5saXPBbD8HjcAlgew+EzeAcsbWGu/zXqrEclZoRew9NuswFesxJaUl8INh0Noj2CdzP84U8VuK5TyqrxPBrB0hlUprHDGDaun66JMNVs5RjzvbuAwIyV+SsfZipVFNq42xa5Hcmuy5k3JJAc75KrMw+ovbbrUxgSWevJO9Z1a6kl0WuHDmnwDZfIwBZNDaHVih8V/xdKxNYw4rAek/GGV8YqZVK/7AliILVvGHqa4GTQBCwEsxGGP5SksJGRYsIUAFgJYCGAhCGAhhrO8d5stwEKwYiGAhfDM0WwLsBDAQmDLO1jnz2/Fgg/AijSd/S9REdr6A9Qfg/ynD+56AAAAAElFTkSuQmCC'}
+2023-04-11 17:30:07.418 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:30:07.444 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACe0lEQVR42u3cu0oDQRQG4JSBqJWFNoJiIYJN1EpBtBEfQRFbi2CnWFiIWlkGBcFO0M7C1sJWC0EEfQQhrYUIWwguLCxhM7s7ezlzzsz8P6fJjVz4OHPJJI3Av2xsvYcVIJRpePvOveL1eXYTFWAhtMKokQEWkBVAdnG1ExZgISTIdHhZD2txvxsXfJickGXzQsdCKiWNF2AhJLwAC8GqEAEsW9JbnY0LGshhtedaygIypCSsNFL+8ELqh6WjCra8zVJ7syqs3MERnzJgFYOVcVfYAiyqVSFgRTmc+S1U0l7/1/doWKS2AMtHWAle12+XpQuwAKuG7oWOJUue/BdcenCsARaFqvXb8eyCKkvDDMs9eVBVABZGQKiqBxY23KEKsKBKkefmXqJEw2Lhdd95imvwSqjKJcXCS3fyzmhrEJaSGmDlqpIIi3EWn2DUf1ECLLGqlLdaAMuYrYQkOY1K8iBox3YDb9OCKsAyAUv/gS9r83H5sLnAuwy0G1Z4cWzoOFHxPc8nhvuLDpnMLSv2LQa7YQ0mjVrCmRKcQFUnncl6V4X8sHKtSFgV6kTZz3QaWwlYFMdmQlulebFvNKhhaZ55Fw7L5Jyd7jyW1a3Lgl/peAuroi3eWZcFvysUuNFgMlWGRcbVYkNnOsX7DbTnsGpvXdE1048PslaFFsFa+GuGFSApe6ektlyG1c/LB2QZw1zaUEhnyxFYKwe7UWkic7st6c+xAEu3Y8XCspE52cZyz8woWxqRLfeHQq/GynKHsShsAZaD830J3+oAluMZaW2bfLruz3JU+A9SL2wZ5hXgP0jBC7AY8no6pVP4oAALKZ+Po7uwAAvh5PUPuWXHYI8l1d0AAAAASUVORK5CYII='}
+2023-04-11 17:30:08.297 | INFO     | handle_requests:request:40 - 通过get方法发送请求，url：http://mall.lemonban.com:8108/captcha.jpg
+2023-04-11 17:30:08.326 | ERROR    | handle_requests:request:29 - json字符串转换字典失败，返回字符串：{'username': 'tyler', 'password': '123456', 'typeid': 1003, 'image': 'iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAACvUlEQVR42u3bL0sEQRgG8LHYTBcu6CewWSxiuKZNMIrBoogHajOL4ZLBKiIIHphMRkEE/3WDxeKJ3+GaCwvLsrM3+87e7LzvzjwPT9LzhPXHO3OzqxojtfI0+suKq6FH4RIAVuywVha/9QIWYDkmle/69VtSwAIsl6qy0ZXy8iMMsMKBVWkOEwuw7GDR5xlgAVYja2XTv+ty/giwAKspW0lLYeW/GLm50GA9/Hympf/49f1N0umXQl1VzLaCnViZMKKzlBcdWYHOJFXT27obHACW3KXQapJRhFUCityWikFV7RiEUcaSwwWxdbYmwjrrLxQa885dXygpA8ntZqtdthSFlFhenj8PXmzOJU15EcW43cVb2VreHhbKCcusSpQtxlvRCS8WWLVJ+eelDKqI34pNlS4mnWRZeWGZVXmzpUrpVO66IldlFpMX5hmWAZBnW8rKjQRYeVWz3VWBsLgmVqUbBljEacQ+tPRZldgqLWCZX8MJ6+tlI6sEWFYrYNPgpMHSVb0/7uv1NrQU/cNgoZm2du2rXCGTD6vyZaXy+GEVRpo+3gLbrdcQw7UOEit0Yhne1C0ygarG9ifv4cF6Xeo727xHe7hQCct8E1rI8RVgSVc1rnpOxv8jWSy3bgy27M6xeGER/1eHZY/FqwqwgoVF33jx2to9PzXUoS0l6vyzRbAEZvqhZWZXKs8aVuVNwzESoi3Hxw0GW614MKstWZtZy9fDZ0PDy7zCovOa9I6d3nNWSLJy5oSdrANSK170d88jAzif4805rOPucFKtYTUXgPO/5WJ70E9C4Iw3h7+XU1YoLCSYAJaDnGy9p8WlqAVrcIvrRRQGapYTK7EFXqDW1FIIXqDW4B7LL6/R8kehQVIDLP7o1IJkB1jS2eGPDVgIYCEIYCG22dvpARaCiYUAVnPpXIE1YMEWYpN/8PaH6maUkYYAAAAASUVORK5CYII='}
+2023-04-11 17:30:09.111 | INFO     | test_upimg:test_upimg:27 - 开始执行用例：前置-登录
+2023-04-11 17:30:09.114 | INFO     | test_upimg:test_upimg:34 - 需要在headers中添加token：f132e93b-81bf-4537-b897-6571042fc80b
+2023-04-11 17:30:09.115 | INFO     | test_upimg:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:30:09.116 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearerf132e93b-81bf-4537-b897-6571042fc80b'}
+2023-04-11 17:30:09.118 | INFO     | handle_requests:request:26 - 将json字符串转换为字典作为请求数据，json请求数据为dict：{'principal': 'student', 'credentials': '123456a', 'imageCode': 'lemon'}
+2023-04-11 17:30:09.120 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/adminLogin
+2023-04-11 17:30:09.225 | INFO     | test_upimg:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:30:09.228 | INFO     | handle_extract:handleExtract:29 - 提取的全局变量为token：596f84f0-d9b1-4ae3-baeb-dd7fb8f19729
+2023-04-11 17:30:09.230 | INFO     | test_upimg:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:30:09.231 | INFO     | test_upimg:test_upimg:71 - 不需要断言，结束用例
+2023-04-11 17:30:09.235 | INFO     | test_upimg:test_upimg:27 - 开始执行用例：.png图片上传成功
+2023-04-11 17:30:09.237 | INFO     | test_upimg:test_upimg:34 - 需要在headers中添加token：596f84f0-d9b1-4ae3-baeb-dd7fb8f19729
+2023-04-11 17:30:09.239 | INFO     | test_upimg:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:30:09.240 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer596f84f0-d9b1-4ae3-baeb-dd7fb8f19729'}
+2023-04-11 17:30:09.242 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.png', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.png'>)}
+2023-04-11 17:30:09.244 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:30:09.273 | INFO     | test_upimg:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:30:09.275 | INFO     | test_upimg:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:30:09.276 | INFO     | test_upimg:test_upimg:65 - 需要断言，断言 2023/04/17afec6df62841b198f9b157a8cfccec.png 以 .png结尾
+2023-04-11 17:30:09.280 | INFO     | test_upimg:test_upimg:27 - 开始执行用例：.gif图片上传成功
+2023-04-11 17:30:09.282 | INFO     | test_upimg:test_upimg:34 - 需要在headers中添加token：596f84f0-d9b1-4ae3-baeb-dd7fb8f19729
+2023-04-11 17:30:09.283 | INFO     | test_upimg:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:30:09.285 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer596f84f0-d9b1-4ae3-baeb-dd7fb8f19729'}
+2023-04-11 17:30:09.286 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.gif', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.gif'>)}
+2023-04-11 17:30:09.288 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:30:09.313 | INFO     | test_upimg:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:30:09.314 | INFO     | test_upimg:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:30:09.316 | INFO     | test_upimg:test_upimg:65 - 需要断言，断言 2023/04/19c33b0b3c9844318528ee7807822d96.gif 以 .gif结尾
+2023-04-11 17:30:09.320 | INFO     | test_upimg:test_upimg:27 - 开始执行用例：.jpg图片上传成功
+2023-04-11 17:30:09.322 | INFO     | test_upimg:test_upimg:34 - 需要在headers中添加token：596f84f0-d9b1-4ae3-baeb-dd7fb8f19729
+2023-04-11 17:30:09.324 | INFO     | test_upimg:test_upimg:40 - 发起请求,判断发送的数据是否需要在内部处理：
+2023-04-11 17:30:09.326 | INFO     | handle_requests:request:21 - 该请求需要token鉴权，发送请求的headers为：{'locale': 'zh-CN', 'Authorization': 'bearer596f84f0-d9b1-4ae3-baeb-dd7fb8f19729'}
+2023-04-11 17:30:09.327 | INFO     | handle_requests:request:34 - 将python字符串转换为字典作为请求数据，files请求数据为dict：{'file': ('address.jpg', <_io.BufferedReader name='d:\\code\\Api_test\\api_framework_v1\\imgs\\address.jpg'>)}
+2023-04-11 17:30:09.329 | INFO     | handle_requests:request:40 - 通过post方法发送请求，url：http://mall.lemonban.com:8108/admin/file/upload/img
+2023-04-11 17:30:09.361 | INFO     | test_upimg:test_upimg:56 - 判断是否需要从响应数据中提取数据作为全局变量
+2023-04-11 17:30:09.364 | INFO     | test_upimg:test_upimg:60 - 判断是否需要断言
+2023-04-11 17:30:09.365 | INFO     | test_upimg:test_upimg:65 - 需要断言，断言 2023/04/130d082eb25142798bb796c13c452f7c.jpg 以 jpg结尾

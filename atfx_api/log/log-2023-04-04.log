@@ -1,0 +1,492 @@
+tylerlogger - 2023-04-04 18:24:57,734 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 18:24:57,763 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 18:24:57,809 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 18:24:57,835 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 18:50:45,801 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-04 18:59:51,407 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 18:59:51,428 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 18:59:51,450 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 18:59:51,471 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:00:56,049 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:00:56,070 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:00:56,092 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:00:56,114 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:01,697 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:01:01,718 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:01,752 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:01,772 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:12,482 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:01:12,502 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:12,522 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:01:12,543 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:06,482 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:20:06,504 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:06,526 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:06,548 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:13,347 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:20:13,368 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:13,388 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:13,408 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:39,555 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:20:39,576 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:39,597 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:20:39,618 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:20,310 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:27:20,331 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:20,359 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:20,379 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:30,736 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:27:30,755 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:30,776 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:27:30,795 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:56:10,123 - test_debug - [test_debug.py-->line:78] - INFO: 用例通过
+tylerlogger - 2023-04-04 19:56:10,148 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:56:10,172 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 19:56:10,192 - test_debug - [test_debug.py-->line:74] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 20:56:38,921 - handle_log - [handle_log.py-->line:77] - INFO: test
+tylerlogger - 2023-04-04 20:59:20,290 - test_debug - [test_debug.py-->line:77] - INFO: 用例通过
+tylerlogger - 2023-04-04 20:59:20,310 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 20:59:20,332 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 20:59:20,352 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:00:05,053 - test_debug - [test_debug.py-->line:77] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:00:05,076 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:00:05,098 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:00:05,118 - test_debug - [test_debug.py-->line:73] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:05:02,655 - handle_log - [handle_log.py-->line:77] - INFO: test
+tylerlogger - 2023-04-04 21:05:36,607 - handle_log - [handle_log.py-->line:77] - INFO: test
+tylerlogger - 2023-04-04 21:05:59,822 - handle_log - [handle_log.py-->line:77] - INFO: test
+tylerlogger - 2023-04-04 21:06:06,487 - handle_log - [handle_log.py-->line:77] - INFO: test
+tylerlogger - 2023-04-04 21:30:56,323 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:30:56,344 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:30:56,367 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:30:56,387 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:31:14,974 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:31:14,996 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:31:15,021 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:31:15,042 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:08,797 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:38:08,820 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:08,843 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:08,864 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:32,933 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:38:32,956 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:32,981 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:38:33,009 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:42:04,343 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:42:04,364 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:42:04,386 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:42:04,407 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:47:32,237 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-04 21:50:40,922 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:50:40,944 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:50:40,966 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:50:40,988 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:50:56,695 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 21:50:56,718 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:50:56,739 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:50:56,761 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 21:51:14,130 - handle_log - [handle_log.py-->line:76] - INFO: test
+tylerlogger - 2023-04-04 22:01:32,626 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 22:01:32,649 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 22:01:32,670 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 22:01:32,690 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 22:04:07,316 - test_debug - [test_debug.py-->line:76] - INFO: 用例通过
+tylerlogger - 2023-04-04 22:04:07,338 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 1, 'msg': 'loginout sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 1, 'msg': 'loginout sucess'}
+?          ^               ---
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 22:04:07,360 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 2, 'msg': 'loginin sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 2, 'msg': 'loginin sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
+tylerlogger - 2023-04-04 22:04:07,381 - test_debug - [test_debug.py-->line:72] - ERROR: {'code': 3, 'msg': 'loginok sucess'} != {'code': 0, 'msg': 'login sucess'}
+- {'code': 3, 'msg': 'loginok sucess'}
+?          ^               --
+
++ {'code': 0, 'msg': 'login sucess'}
+?          ^
+
